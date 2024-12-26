@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#back-pic{
+width: 100vw;
+height: 100vh;
+}
+.container{
+    min-width: 1280px;
+    height: 100vh;
+    padding-inline: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:absolute;
+}
+
+.box{
+    background-color: lightsalmon;
+    border-radius:8px;
+    padding:8px;
+    width:23%;
+    height: fit-content;
+}
+.title{
+    display: flex;
+}
+/* add task */
+.ad-container{
+    position:absolute;
+}
+.ad-box{
+    width:15rem;
+    height: 25rem;
+    background-color: lightsalmon;
+    border-radius:8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    padding:1rem;
+}
+#submit{
+    width: 100%;
+    height: 2rem;
+    background-color: black;
+    border: none;
+    color:#fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#t-text{
+    width: 100%;
+    padding:8px 4px;
+    border-radius: 5px;
+     border: 1px solid lightcoral;
+     margin-top:0.3rem;
+}
+#des-text{
+   width: 100%;
+   padding:20px 10px;
+   border-radius: 5px;
+    border: 1px solid lightcoral;
+    margin-top:0.3rem;
+}
+
+#status-select{
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid lightcoral;
+    margin-top:0.3rem;
+}
+
+#priority-select{
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid lightcoral;
+    margin-top:0.3rem;
+}
